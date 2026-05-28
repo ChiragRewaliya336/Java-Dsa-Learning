@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class c1 {
     /**
@@ -15,7 +15,7 @@ public class c1 {
          * System.out.println("The value of a is: " + a);
          * System.out.println("The value of b is: " + b);
          * System.out.println("THe sum of " + a + " and " + b + " is :" + sum);
-         * a = 15;
+         * a = 15;//
          * b = 20;
          * System.out.println("The value of a is: " + a);
          * System.out.println("The value of b is: " + b);
