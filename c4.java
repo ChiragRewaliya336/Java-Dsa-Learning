@@ -34,15 +34,15 @@ public class c4 {
         // System.out.print("Sum is " +sum);
         // }
         // for (int n = 1234; n > 0; n = n / 10) {
-        //     int x = n % 10;
-        //     System.out.print(x);
+        // int x = n % 10;
+        // System.out.print(x);
         // }
         // Scanner sc = new Scanner(System.in);
         // System.out.print("Enter your number:");
         // int i = sc.nextInt();
         // for (int n = i; n > 0; n = n / 10) {
-        //     int x = n % 10;
-        //     System.out.print(x);
+        // int x = n % 10;
+        // System.out.print(x);
         // }
 
         // Scanner sc = new Scanner(System.in);
@@ -50,10 +50,80 @@ public class c4 {
         // int n = sc.nextInt();
         // int rev =0;z
         // while (n>0) {
-        //     int ld =n%10;
-        //     rev = (rev*10)+ld;
-        //     n =n/10;
+        // int ld =n%10;
+        // rev = (rev*10)+ld;
+        // n =n/10;
         // }
         // System.out.println(rev);
+
+        // do while:
+        // int i =1;
+        // do{
+        // System.out.println("hello world ");
+        // i++;
+        // }while(i<=10);
+
+        // break:
+        // for(int i=1; i<=5; i++){
+        // if(i==3){
+        // break;
+        // }
+        // System.out.println(i);
+        // }
+        // System.out.println("I am out of the loop :)");
+
+        // question:
+        // Scanner sc = new Scanner(System.in);
+        // do{
+        // System.out.print("Enter your number:");
+        // int n = sc.nextInt();
+        // if(n%10==0){
+        // System.out.println("you enter a multiple of 10 that is:" +n);
+        // break;
+        // }
+        // }while(true);
+
+        // continue
+        // for(int i =1; i<=10; i++){
+        // if (i==3) {
+        // continue;
+        // }
+        // System.out.println(i);
+        // }
+
+        // question:
+        // Scanner sc = new Scanner(System.in);
+        // do{
+        // System.out.print("Enter your number: ");
+        // int n = sc.nextInt();
+        // if(n%10==0){
+        // continue;
+        // }
+        // System.out.println("Number was" +n);
+        // }while(true);
+
+
+        //prime number:
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter your number: ");
+        // int n = sc.nextInt();
+        //  boolean isPrime =true;
+        // if(n==2){
+        //     System.out.println("prime");
+        // }
+        // else{
+        //     for(int i=2; i<Math.sqrt(n); i++){ //can be written as i<n
+        //     if(n%i==0){
+        //         isPrime =false;
+        //     }
+        // }
+        // if (isPrime ==true) {
+        //     System.out.println("Number is prime");
+        // }
+        // else{
+        //     System.out.println("Nummber is composite");
+        // }
+        // }
+       
     }
 }
