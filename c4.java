@@ -33,10 +33,12 @@ public class c4 {
         // }
         // System.out.print("Sum is " +sum);
         // }
+
         // for (int n = 1234; n > 0; n = n / 10) {
         // int x = n % 10;
         // System.out.print(x);
         // }
+        
         // Scanner sc = new Scanner(System.in);
         // System.out.print("Enter your number:");
         // int i = sc.nextInt();
