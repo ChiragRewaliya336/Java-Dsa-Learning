@@ -71,7 +71,52 @@ public class c7 {
         }
         return true;
     }
+    public static boolean isprime(int n){
+        if(n==2){
+            return true;
+        }
+        for(int i =2; i<=Math.sqrt(n); i++){
+            if(n%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
 
+    public static void primeinrange(int n){
+        for(int i=1; i<=n; i++){
+            if (isprime(i)) {
+                System.out.println(i +" ");
+            }          
+        }
+        System.out.println();
+    }
+
+    public static void bintodec(int n){
+        int num=n;
+        int pow =0;
+        int dec=0;
+        while(n>0){
+            int lastdig =n%10;
+            dec= dec +(lastdig * (int) Math.pow(2, pow));
+            pow ++;
+             n=n/10;
+        }
+        System.out.println("decimal of " +num +"= "+dec);
+    }
+
+    public static void dectobin(int n){
+        int num =n;
+        int pow=0;
+        int bin =0;
+        while (n>0) {
+              int rem = n%2;
+              bin = bin +( rem* (int) Math.powExact(10, pow));
+              n=n/2;
+              pow++;         
+        }
+        System.out.println("Binary of " +num +" ="+bin);
+    }
     public static void main(String[] args) {
         // // prth();
         // // calsum();
@@ -123,5 +168,18 @@ public class c7 {
         // prime
         // System.out.println(prime(1));
 
+        // optmised
+        // System.out.println(isprime(12));
+
+        // Prime in range:
+        // primeinrange(20);
+
+
+        // Convert binary to decimal:
+        // bintodec(101);
+
+
+        // Convert dec to binary:
+        dectobin(7);
     }
 }
