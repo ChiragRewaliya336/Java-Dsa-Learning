@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class c3 {
+public class c03 {
     public static void main(String[] args) {
         // Conditionl statement:
         // int age = 15;

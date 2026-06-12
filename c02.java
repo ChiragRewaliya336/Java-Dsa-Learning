@@ -1,5 +1,5 @@
 
-public class c2{
+public class c02{
 //operator
 public static void main(String[] args) {
     // int a =5;

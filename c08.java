@@ -1,4 +1,4 @@
-public class c8 {
+public class c08 {
     public static void rectangle(int row, int col) {
         for (int i = 1; i <= row; i++) {
             for (int j = 1; j <= col; j++) {

@@ -1,6 +1,6 @@
-import java.util.*;
+// import java.util.*;
 
-public class c4 {
+public class c04 {
     public static void main(String[] args) {
         // int count = 0;
         // while (count<10) {

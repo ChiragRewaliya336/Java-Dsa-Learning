@@ -1,0 +1,185 @@
+// import java.util.*;
+
+// public class c07 {
+//     public static void prth() {
+//         System.out.println("Hello world!");
+//         // return;
+//     }
+
+//     public static int calsum() {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int sum = a + b;
+//         System.out.println("Sum(f1) is: " + sum);
+//         return sum;
+//     }
+
+//     public static int calsum(int num1, int num2) { // parameter
+//         int sum = num1 + num2;
+//         System.out.println("Sum(f2) is: " + sum);
+//         return sum;
+//     }
+
+//     public static int calcsum(int num1, int num2) {
+//         int sum = num1 + num2;
+//         return sum;
+//     }
+
+//     public static int sum(int a, int b) {
+//         return a + b;
+//     }
+
+//     public static float sum(float a, float b) {
+//         return a + b;
+//     }
+
+//     public static void swap(int a, int b) {
+//         int temp = a;
+//         a = b;
+//         b = temp;
+//         System.out.println(" Value of a = " + a + " by swap ");
+//         System.out.println(" Value of b = " + b + " by swap ");
+//     }
+
+//     public static int product(int num1, int num2) {
+//         int prod = num1 * num2;
+//         System.out.println("Product is: " + prod);
+//         return prod;
+//     }
+
+//     public static int factorai(int num) {
+//         int fact = 1;
+//         if (num == 0) {
+//             return 1;
+//         } else {
+//             for (int i = 1; i <= num; i++) {
+//                 fact = fact * i;
+//             }
+//         }
+//         return fact;
+//     }
+
+//     public static boolean prime(int n) {
+//         if (n==2) {
+//             return true;
+//         }
+//         for (int i = 2; i <= n - 1; i++) {
+//             if (n % i == 0) {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+//     public static boolean isprime(int n){
+//         if(n==2){
+//             return true;
+//         }
+//         for(int i =2; i<=Math.sqrt(n); i++){
+//             if(n%i==0){
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+
+//     public static void primeinrange(int n){
+//         for(int i=1; i<=n; i++){
+//             if (isprime(i)) {
+//                 System.out.println(i +" ");
+//             }          
+//         }
+//         System.out.println();
+//     }
+
+//     public static void bintodec(int n){
+//         int num=n;
+//         int pow =0;
+//         int dec=0;
+//         while(n>0){
+//             int lastdig =n%10;
+//             dec= dec +(lastdig * (int) Math.pow(2, pow));
+//             pow ++;
+//              n=n/10;
+//         }
+//         System.out.println("decimal of " +num +"= "+dec);
+//     }
+
+//     public static void dectobin(int n){
+//         int num =n;
+//         int pow=0;
+//         int bin =0;
+//         while (n>0) {
+//               int rem = n%2;
+//               bin = bin +( rem* (int) Math.powExact(10, pow));
+//               n=n/2;
+//               pow++;         
+//         }
+//         System.out.println("Binary of " +num +" ="+bin);
+//     }
+//     public static void main(String[] args) {
+//         // // prth();
+//         // // calsum();
+//         // Scanner sc = new Scanner(System.in);
+//         // int a = sc.nextInt();
+//         // int b = sc.nextInt();
+//         // // calsum(a,b); //arguments
+
+//         // int sum= calcsum(a, b);
+//         // System.out.println("Sum(calcsum) is: "+sum);
+
+//         // int a=10;
+//         // int b=5;
+//         // swap(a,b); // call by value means that you swap the values but it will not
+//         // effect original vlaue of a and b
+//         // System.out.println("a= "+a); // the swap will be avaliable in function value
+//         // System.out.println("b= "+b);
+
+//         // Scanner sc = new Scanner(System.in);
+//         // int a = sc.nextInt();
+//         // int b = sc.nextInt();
+//         // int multiply= product(a, b);
+//         // System.out.println("Product by mu. variable:" +multiply);
+
+//         // Scanner sc = new Scanner(System.in);
+//         // int a = sc.nextInt();
+//         // System.out.println( factorai(a));
+
+//         // Scanner sc = new Scanner(System.in);
+//         // int n = sc.nextInt();
+//         // int r = sc.nextInt();
+//         // int numerator = factorai(n);
+//         // int denominator = factorai(r) * factorai(n-r);
+//         // int coffiecent = numerator/denominator;
+//         // System.out.println("Binominal coffiecent is: "+coffiecent);
+
+//         // function overloading:using no of parameters.
+//         // calsum();
+//         // Scanner sc = new Scanner(System.in);
+//         // int a = sc.nextInt();
+//         // int b = sc.nextInt();
+//         // int sum= calsum(a,b);
+//         // System.out.println(sum);
+
+//         // using data types
+//         // System.out.println(sum(3, 5));
+//         // System.out.println(sum(3.2f, 5.2f));
+
+//         // prime
+//         // System.out.println(prime(1));
+
+//         // optmised
+//         // System.out.println(isprime(12));
+
+//         // Prime in range:
+//         // primeinrange(20);
+
+
+//         // Convert binary to decimal:
+//         // bintodec(101);
+
+
+//         // Convert dec to binary:
+//         dectobin(7);
+//     }
+// }

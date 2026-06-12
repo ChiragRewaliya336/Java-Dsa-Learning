@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class c10 {
     public static void update(int marks[]) {

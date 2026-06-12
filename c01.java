@@ -1,6 +1,6 @@
 //import java.util.*;
 
-public class c1 {
+public class c01 {
     /**
      * @param args
      */
