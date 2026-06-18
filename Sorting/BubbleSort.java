@@ -1,5 +1,4 @@
-package Sorting;
-public class c15 {
+public class BubbleSort {
     public static void bubblesort(int nums[]) {
         for (int trn = 0; trn < nums.length; trn++) {
             boolean swapped = false;

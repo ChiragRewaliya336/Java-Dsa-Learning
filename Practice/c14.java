@@ -37,7 +37,7 @@ public class c14 {
         return -1;
     }
 
-    public int square(int nums[]) {
+    public int[] square(int nums[]) {
         int n = nums.length;
         int num[] = new int[n];
         int square = 0;
