@@ -1,3 +1,4 @@
+package Patterns;
 public class c11 {
     public static void hollow_rectangle(int row, int col) {
         for (int i = 1; i <= row; i++) {

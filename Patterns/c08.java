@@ -1,3 +1,4 @@
+package Patterns;
 public class c08 {
     public static void rectangle(int row, int col) {
         for (int i = 1; i <= row; i++) {

@@ -1,3 +1,4 @@
+package Array;
 public class c13 {
     public static int trappedrainwatter(int height[]) {
         // calculate left max boundary =array

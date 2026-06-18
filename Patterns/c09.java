@@ -1,3 +1,4 @@
+package Patterns;
 public class c09 {
     public static void tri01(int n) {
         for (int i = 1; i <= n; i++) {

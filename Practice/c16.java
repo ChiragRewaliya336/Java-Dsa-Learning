@@ -1,3 +1,4 @@
+package Practice;
 public class c16 {
     // function for running sum:
     public int[] runningSum(int[] nums) {      

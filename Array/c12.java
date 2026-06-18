@@ -1,3 +1,4 @@
+package Array;
 public class c12 {
     public static void subarr(int nums[]) {
         int ts = 0;
